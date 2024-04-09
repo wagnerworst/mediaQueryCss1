@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.content{
+   padding: 10px;
+
+/*---------MEDIAS---------*/
+/*BODY*/
+}
+@media (min-width: 1008px) {
+    body{
+        background-color: #8FBCB3;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
+    body{
+        background-color: #FCE6A8;
+    }
+}
+@media (max-width: 640px) {
+    body{
+        background-color: #665f4a;
+    }
+}
+
+/*CONTENT*/
+@media (min-width: 1008px) {
+    .content{
+        background-color: whitesmoke;
+        border: solid grey 2px;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
+    .content{
+        background-color: #be9dcc;
+        border: solid rgb(137, 11, 175) 2px;
+        color: #1ed81e;
+    }
+}
+@media (max-width: 640px) {
+    .content{
+        display: none;
+    }
+}
